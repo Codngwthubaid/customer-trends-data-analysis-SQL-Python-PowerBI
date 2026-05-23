@@ -21,8 +21,8 @@ We began with data preparation and cleaning in Python:
 - **Data Loading:** Imported the dataset using pandas.
 - **Initial Exploration:** Used `df.info()` to check structure and `.describe()` for summary statistics.
 
-![file-info](file-info.png)
-![file-describe](file-describe.png)
+![file-info](answers_images/file-info.png)
+![file-describe](answers_images/file-describe.png)
 
 - **Missing Data Handling:** Checked for null values and imputed missing values in the Review Rating column using the median rating of each product category.
 - **Column Standardization:** Renamed columns to snake case for better readability and documentation.
@@ -70,7 +70,7 @@ We performed structured analysis in MySQL to answer key business questions:
 
 Finally, we built an interactive dashboard in Power BI to present insights visually.
 
-![powerBI-dashboard](powerBI-dashboard.png)
+![powerBI-dashboard](answers_images/powerBI-dashboard.png)
 
 ## Business Recommendations
 
